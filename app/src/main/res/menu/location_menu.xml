@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/share_my_location"
+        android:title="@string/share_my_location" />
+
+    <item android:id="@+id/stop_sharing_my_location"
+        android:title="@string/stop_sharing_my_location" />
+
+    <item android:id="@+id/get_friend_location"
+        android:title="@string/get_friend_location" />
+
+    <item android:id="@+id/set_mutual_point"
+        android:title="@string/set_mutual_point" />
+</menu>

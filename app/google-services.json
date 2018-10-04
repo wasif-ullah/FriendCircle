@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "219465706490",
+    "firebase_url": "https://friendcircle-2b539.firebaseio.com",
+    "project_id": "friendcircle-2b539",
+    "storage_bucket": "friendcircle-2b539.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:219465706490:android:0bcb8ec4cdf82c09",
+        "android_client_info": {
+          "package_name": "com.example.wasif.friendcircle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "219465706490-24mjpscg0balu56bcnckgrhboi4ct246.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.wasif.friendcircle",
+            "certificate_hash": "03988196693e945b9b17e73b47ebe650ebe49092"
+          }
+        },
+        {
+          "client_id": "219465706490-5ktakejnidbg5l27lhtkdvrve3dtttc7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUhq6EfEXklIIMklOiOHCBaKVsrsFCMEo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "219465706490-5ktakejnidbg5l27lhtkdvrve3dtttc7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

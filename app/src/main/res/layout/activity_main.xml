@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.wasif.friendcircle.MainActivity"
+    >
+
+    <include layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/include"
+        >
+
+    </include>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgimage"
+    android:layout_below="@id/include">
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnGeneric"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="61dp"
+        android:textAlignment="center"
+        android:textColor="@color/colorGreen"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/btnCreate"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnGeneric"
+        android:layout_alignStart="@+id/btnGeneric"
+        android:layout_below="@+id/btnGeneric"
+        android:layout_marginTop="11dp"
+        android:background="@drawable/bg_btn"
+        android:drawableLeft="@drawable/icons8_create"
+        android:paddingLeft="15dp"
+        android:text="Create"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/btnGeneric"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/bg_btn"
+        android:drawableLeft="@drawable/icons8_generic"
+        android:paddingLeft="15dp"
+        android:text="Generic"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/help"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnCreate"
+        android:layout_alignStart="@+id/btnCreate"
+        android:layout_below="@+id/btnCreate"
+        android:layout_marginTop="14dp"
+        android:paddingLeft="15dp"
+        android:textAlignment="center"
+        android:background="@drawable/bg_btn"
+        android:drawableLeft="@drawable/help"
+        android:text="Help"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
+</RelativeLayout>

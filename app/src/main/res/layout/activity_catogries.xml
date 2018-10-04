@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/catagory"
+
+    tools:context="com.example.wasif.friendcircle.Categories">
+
+
+        <include layout="@layout/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tb">
+
+        </include>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_below="@+id/tb"
+            android:background="@drawable/bgimage"
+            android:paddingTop="150sp">
+
+        <Button
+            android:id="@+id/btnJammarat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_btn"
+            android:drawableLeft="@drawable/icons8_letter_j"
+            android:paddingLeft="15dp"
+            android:text="Refreshments"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+
+
+        <Button
+        android:id="@+id/btnMosque"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_btn"
+        android:text="Mosque"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:paddingLeft="15dp"
+        android:drawableLeft="@drawable/icons8_mosque"
+     />
+
+
+        <Button
+        android:id="@+id/btnHos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hospital"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:paddingLeft="15dp"
+        android:background="@drawable/bg_btn"
+        android:drawableLeft="@drawable/icons8_medical_bag"
+       />
+
+        <Button
+            android:id="@+id/btnClinic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Clinic"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingLeft="15dp"
+            android:background="@drawable/bg_btn"
+            android:drawableLeft="@drawable/icons8_clinic"
+            />
+        <Button
+            android:id="@+id/btnStation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bus Station"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingLeft="15dp"
+            android:background="@drawable/bg_btn"
+            android:drawableLeft="@drawable/icons8_bus"
+           />
+
+     </LinearLayout>
+</RelativeLayout>

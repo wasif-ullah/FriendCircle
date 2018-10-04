@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/map_relative"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.wasif.friendcircle.MapsActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/colorGreen"
+        android:gravity="bottom"
+        android:orientation="horizontal"
+        android:weightSum="4"
+        android:id="@+id/linearLayout">
+
+        <ImageView
+            android:id="@+id/im_1"
+            android:layout_width="30dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:background="@drawable/shareloc"
+            android:onClick="@+id/share_my_location" />
+
+        <ImageView
+            android:id="@+id/im_2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/im_1"
+            android:layout_weight="1"
+            android:background="@drawable/stop" />
+
+        <ImageView
+            android:id="@+id/im_3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/im_1"
+            android:layout_weight="1"
+            android:background="@drawable/getlocation" />
+
+        <ImageView
+            android:id="@+id/im_4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/mutual" />
+
+        <!--<ImageView-->
+            <!--android:id="@+id/im_5"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="1"-->
+            <!--android:background="@drawable/icons8_alert" />-->
+
+
+    </LinearLayout>
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_above="@+id/linearLayout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

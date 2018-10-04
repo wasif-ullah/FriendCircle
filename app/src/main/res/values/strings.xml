@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Friend Circle</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="map_api_key">AIzaSyDDDsyrVbnGBRoufr5xHAY-cszPgGols_Y</string>
+    <string name="share_my_location">Share My Location</string>
+    <string name="get_friend_location">Get Friend Location</string>
+    <string name="stop_sharing_my_location">Stop sharing my location</string>
+    <string name="set_mutual_point">Set Mutual Point</string>
+    <string name="tv">kjcndfjvbjsdfvbjhhxbcv jsbhcdbshdcvgkjsdjkhcbsdjdbv</string>
+
+    <string name="help">\n "Description: \n
+There is a common issue for the first time pilgrims and mostly tourist might get lost if their temporary residence is away from place or even if they are not familiar with the sites so they might want to stick with fellow and also a common issue for tourists, some they don’t know about the famous places and some time they lost eachother in a crowd. To find the rendezvous point is a big issue for the pilgrims and tourists. \n
+How to create users  on this application: \n
+1: First button is used to start sharing my location.\n
+2: Second button is used to stop  sharing my location. \n
+3: Third button is used to get friends location. \n
+4: Forth button is used to set mutual point. \n
+How to use \n
+For the first user enable your Gps before starting the whole process. Click on the mutual button for a useful user message which will ask the user to click on the map to select a mutual point. Than click on the share location button to create a user. On the second user mobile enable gps no need to create a mutual point and accept the request of the first user by clicking on Get Button which will remind me of mutual location and the first user name. All the user will access the users from their marker on the map.
+
+
+
+ " </string>
+
+</resources>
